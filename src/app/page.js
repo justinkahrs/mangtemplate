@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Adsense from "@/components/AdSense"; // Adjust path as necessary
 import AmazonAffiliate from "@/components/AmazonAffiliate"; // Adjust path as necessary
 
 export default function Home() {
@@ -28,8 +27,6 @@ export default function Home() {
         {/* Amazon Affiliate Ad */}
         <AmazonAffiliate />
 
-        {/* Google AdSense */}
-        <Adsense />
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
